@@ -1,0 +1,17 @@
+{
+  "name": "__project_name__",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "babel-preset-frontful build",
+    "deploy": "babel-preset-frontful deploy"
+  },
+  "main": "./index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-preset-frontful": "0.x || 1.x",
+    "eslint-config-frontful": "0.x || 1.x"
+  }
+}
