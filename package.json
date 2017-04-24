@@ -1,0 +1,27 @@
+{
+  "name": "frontful-cli",
+  "version": "0.0.1",
+  "private": true,
+  "description": "CLI for effortless and sustainable frontend project creation and maintenance using Frontful infrastructure",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontful/frontful-cli.git"
+  },
+  "bin": {
+    "frontful": "./bin/frontful.js"
+  },
+  "scripts": {
+    "build": "babel-preset-frontful build",
+    "deploy": "babel-preset-frontful deploy"
+  },
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "chalk": "^1.1.3",
+    "inquirer": "^3.0.6"
+  },
+  "devDependencies": {
+    "babel-preset-frontful": "0.x || 1.x",
+    "eslint-config-frontful": "0.x || 1.x"
+  }
+}
