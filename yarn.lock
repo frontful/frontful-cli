@@ -1163,8 +1163,8 @@ foreach@^2.0.5:
     object-path "^0.11.4"
 
 "frontful-config@0.x || 1.x":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/frontful-config/-/frontful-config-0.0.11.tgz#5179400d74977ee9095ec76835f9d726eec2ba91"
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/frontful-config/-/frontful-config-0.0.13.tgz#58ca452c7050cb8d75701141aa54a4773d8a2150"
   dependencies:
     deep-extend "^0.4.1"
     js-yaml "^3.8.3"

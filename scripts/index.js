@@ -32,18 +32,18 @@ inquirer.prompt([
   {
     name: 'template',
     type: 'rawlist',
-    message: 'Template:',
+    message: 'Template, all templates include Frontful asset and style management as well as build and development tools, only difference is opinions expressed in eatch template:',
     choices: [
       {
-        short: 'Zero',
-        name: 'Zero - Unopinionated entry files for server and browser',
-        value: 'zero',
+        short: 'Unopinionated',
+        name: 'Unopinionated - Entry files for server and browser',
+        value: 'unopinionated',
       },
-      // {
-      //   short: 'Basic',
-      //   name: 'Basic - Structure and configuration with Express and React',
-      //   value: 'basic',
-      // },
+      {
+        short: 'Basic',
+        name: 'Basic - Structure and configuration with Express and React',
+        value: 'basic',
+      },
       // {
       //   short: 'Complete',
       //   name: 'Complete - Architecture, state management, routing, styling etc.',
