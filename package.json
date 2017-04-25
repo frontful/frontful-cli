@@ -1,6 +1,6 @@
 {
   "name": "frontful-cli",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "private": true,
   "description": "CLI for effortless and sustainable frontend project creation and maintenance using Frontful infrastructure",
   "license": "MIT",

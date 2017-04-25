@@ -1,0 +1,13 @@
+{
+  "name": "__project_name__",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "frontful-environment build",
+    "start": "frontful-environment start",
+    "start:build": "frontful-environment build && PORT=8000 node ./build/server"
+  },
+  "dependencies": {
+    "frontful-environment": "0.x || 1.x"
+  }
+}

@@ -83,5 +83,5 @@ inquirer.prompt([
   console.log(chalk.white.bold(`Usage:`))
   console.log(chalk.white(`cd ./${answers.name}`))
   console.log(chalk.white(`yarn install`))
-  console.log(chalk.white(`yarn build`))
+  console.log(chalk.white(`yarn start`))
 })
