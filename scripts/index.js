@@ -39,21 +39,21 @@ inquirer.prompt([
         name: 'Zero - Unopinionated entry files for server and browser',
         value: 'zero',
       },
-      {
-        short: 'Basic',
-        name: 'Basic - Structure and configuration with Express and React',
-        value: 'basic',
-      },
-      {
-        short: 'Complete',
-        name: 'Complete - Architecture, state management, routing, styling etc.',
-        value: 'complete',
-      },
-      {
-        short: 'Static',
-        name: 'Static - Generate static HTML webpages using React',
-        value: 'static',
-      },
+      // {
+      //   short: 'Basic',
+      //   name: 'Basic - Structure and configuration with Express and React',
+      //   value: 'basic',
+      // },
+      // {
+      //   short: 'Complete',
+      //   name: 'Complete - Architecture, state management, routing, styling etc.',
+      //   value: 'complete',
+      // },
+      // {
+      //   short: 'Static',
+      //   name: 'Static - Generate static HTML webpages using React',
+      //   value: 'static',
+      // },
       {
         short: 'Package',
         name: 'Package - Template with configured package build and deploy scripts',
@@ -67,7 +67,8 @@ inquirer.prompt([
 
   fs.copySync(templatePath, projectPath, {
     filter: (filename) => {
-      return new RegExp(`^((?!(/(node_modules|build|yarn.lock)(/|$))).)*$`, 'i').test(filename)
+      // dont put node_modules here because package is installed in node_modules
+      return new RegExp(`^((?!(/(build|yarn.lock)(/|$))).)*$`, 'i').test(filename)
     }
   })
 
