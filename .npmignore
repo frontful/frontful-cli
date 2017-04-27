@@ -1,6 +1,6 @@
-.babelrc
-.eslintrc
-.hash
-.node-version
+/.babelrc
+/.eslintrc
+/.hash
+/.node-version
 /build
 yarn.lock
