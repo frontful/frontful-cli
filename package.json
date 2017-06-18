@@ -1,6 +1,6 @@
 {
   "name": "frontful-cli",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "private": true,
   "description": "CLI and templates for efficient start and management of Javascript applications using Frontful infrastructure",
   "license": "MIT",
