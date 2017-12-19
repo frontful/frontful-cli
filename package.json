@@ -27,8 +27,8 @@
     "babel-register": "^6.24.1",
     "chalk": "^2.1.0",
     "find": "^0.2.7",
-    "fs-extra": "^4.0.2",
-    "inquirer": "^3.0.6"
+    "fs-extra": "^5.0.0",
+    "inquirer": "^4.0.1"
   },
   "devDependencies": {
     "eslint-config-frontful": "2.x"
